@@ -1,0 +1,179 @@
+* {
+          padding: 0px;
+          margin: 0px;
+          box-sizing: border-box;
+        }
+        ul{list-style:none}
+        body {
+          padding: 0px;
+          margin: 0px;
+          width: 10px;
+          height: 700px;
+          background: linear-gradient(rgba(0, 8, 31, 0.9), rgba(0, 8, 31, 0.9)),
+            url("pics.jpg") no-repeat fixed;
+          background-size: cover;
+          background-position: center;
+          font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+        }
+        .container {
+          
+        }
+        
+        a {
+          text-decoration: none;
+          outline: none;
+          color: inherit;
+        }
+
+
+
+        .header .container {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+        
+        .header {
+          padding-block: 15px;
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          z-index: 4;
+        }
+        
+        .header.active {
+                  height:75px;
+          position: fixed;
+          background-color: grey;
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3), 0 0px 0px rgba(0, 0, 0, 0.22);
+          animation: slideIn 500ms ease forwards;
+        }
+        
+      
+        .navigation {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 12px 90px;
+          margin: auto;
+          max-width: 1400px;
+          width: 100%;
+        }
+        .navigation .menu-icon {
+          cursor: pointer;
+          float: left;
+          padding: 20px 10px;
+          z-index: 103;
+          position: fixed;
+          left: 280px;
+          top: 25px;
+          background-color: white;
+          border-radius: 50%;
+          width: 40px;
+          height: 40px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .navigation .menu-icon .nav-icon {
+          background-color: black;
+          display: block;
+          height: 2px;
+          width: 25px;
+          position: relative;
+          transition: background 0.2s ease-out;
+        }
+        .navigation .menu-icon .nav-icon::before,
+        .navigation .menu-icon .nav-icon::after {
+          background-color: black;
+          width: 100%;
+          height: 100%;
+          content: "";
+          display: block;
+          position: absolute;
+          transition: all ease-out 0.2s;
+        }
+        .navigation .menu-icon .nav-icon::before {
+          top: 8px;
+        }
+        .navigation .menu-icon .nav-icon::after {
+          top: -8px;
+        }
+        .navigation .menu-btn:checked ~ .menu-icon .nav-icon {
+          background: white;
+        }
+        .navigation .menu-btn:checked ~ .menu-icon .nav-icon::before {
+          transform: rotate(-45deg);
+          top: 0px;
+        }
+        .navigation .menu-btn:checked ~ .menu-icon .nav-icon::after {
+          transform: rotate(45deg);
+          top: 0px;
+        }
+        .menu-btn {
+          display: none;
+        }
+        
+        .menu {
+          position: fixed;
+          top: 0px;
+          left: 0px;
+          width: 100%;
+          height: 100%;
+          background-color: #111111f1;
+          z-index: 102;
+          justify-content: center;
+          align-items: center;
+          display: none;
+          animation: fade 0.3s;
+        }
+        .slider {
+          color: red;
+          text-transform: capitalise;
+          font-size: 25px;
+          font-weight: bold;
+          letter-spacing: 1px;
+          position: relative;
+          left: 5px;
+          top: 30px;
+        }
+        .menu li a {
+          position: relative;
+          color: white;
+          margin: 5px 4px;
+          font-size: 20px;
+          transition: all ease 0.3s;
+          left: 10px;
+          line-height: 70px;
+        }
+        .menu li a:hover {
+          font-size: 30px;
+          color: red;
+          transition: all ease 0.3s;
+        }
+        .navigation .menu-btn:checked ~ .menu {
+          display: inline-block;
+        }
+        
+
+        .logo {
+          color: red;
+          text-transform: capitalize;
+          font-size: 25px;
+          font-weight: bold;
+          margin: 0px auto 0px 0px;
+          letter-spacing: 1px;
+          justify-content: space-between;
+          position: absolute;
+          left: 5px;
+        }
+        .logo-span {
+          position: absolute;
+          top: 55px;
+          left: 5px;
+          color: orange;
+          font-weight: bold;
+          font-size: 12px;
+        }
+
