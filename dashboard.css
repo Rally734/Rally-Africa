@@ -274,7 +274,9 @@ color:chocolate
 
 .news{font-weight: bold;
   font-size: 28px;
-  color:beige
+  color:beige;
+  height:max-content;
+  margin-block-start:83px
 }
 
 .news-content{
@@ -446,7 +448,7 @@ height:350px}
   bottom:35px;
     position:relative;
     left:100px;
-    word-wrap: break-word;
+    width:230px;
   }
 
 .location{width:300px;
@@ -646,7 +648,8 @@ font-size: 19px;
     margin-left: 1px;}
   
     .news{position: relative;
-      left:60px
+      left:60px;
+      margin-block-start:35px
     }
 
   .location{width:400px;
@@ -855,7 +858,7 @@ width: auto;
 
 .news-content{display: grid;
 grid-template-columns: 1fr 1fr;
-margin-block-end: 710px;
+margin-block-end: 670px;
 margin-left: -54px;
 }
 
