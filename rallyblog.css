@@ -181,7 +181,7 @@ font-size: 12px;
 margin-block-start: 89px;
 width:300px;
 text-align: center;
-margin-left: 50px;
+margin-left: 25px;
 color:beige
 }
 
@@ -191,7 +191,7 @@ font-size: 18px;
 
 .news{margin-block-end: -20px;
 width:330px;
-margin-left: 37px;
+margin-left: 17px;
 backdrop-filter: blur(30px); 
 margin-block-start: 53px; 
 word-wrap: break-word;
