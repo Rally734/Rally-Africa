@@ -699,7 +699,9 @@ gap:30px;}
    .exp-content .section-subtitle{
     margin-block-end:10px ;
    }
-
+.exp-shape{
+  left:-45px
+}
   .gallery .container {position:relative;
   left:10px;}
 
@@ -905,7 +907,10 @@ width: 950px;
   width: 950px;
 }
 
-
+.exp-shape{
+  left:-70px;
+  top:70px
+}
 
 
 
@@ -1020,6 +1025,10 @@ margin-left: 80px;}
   margin-left: 135px;
   gap:100px;
   grid-template-columns: repeat(3, 1fr);
+}
+
+.exp-shape{
+  left:-90px
 }
 
 .service .title-wrapper{grid-column: span 3;}
