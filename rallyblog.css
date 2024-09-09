@@ -544,8 +544,10 @@ width:870px
 .footer-bottom{
 width:auto
 }
-
-
+.footer-link{
+    margin-block-start: 15px;
+    font-size:16px
+}
 }
 
 @media (min-width:1000px){
