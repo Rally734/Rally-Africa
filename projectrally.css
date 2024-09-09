@@ -808,18 +808,6 @@ margin-block-end:10px}
 
 .input-btn{position:absolute;right:7px}
 
-  .footer-link{
-  font-size: 19px;
-}
-
-.footer-bottom-list{
-  font-size: var(--footer-text-font-size, inherit);
-}
-
-.copyright, .copyright-link{
-  font-size: var(--footer-text-font-size, inherit);
-}
-
 }
 
 
