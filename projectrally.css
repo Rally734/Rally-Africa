@@ -713,7 +713,7 @@ top: -9px;}
     }
 
     .service-card:nth-child(3) {
-      height: 280px;
+      height: inherit;
     }
     .service-card:nth-child(2) {
       margin-top: 30px;
@@ -801,13 +801,24 @@ align-items:center;
   display:flex;
   gap:100px;
 }
-.footer-text{font-size:20px;
+.footer-text{font-size:21px;
 margin-block-end:10px}
 
 .social-list{margin-block-end: 0px;}
 
 .input-btn{position:absolute;right:7px}
 
+  .footer-link{
+  font-size: 21px;
+}
+
+.footer-bottom-link{
+  font-size: 20px;
+}
+
+.copyright, .copyright-link{
+  font-size: 18px;
+}
 
 }
 
@@ -1031,7 +1042,7 @@ left: 5px;
 .hero-banner{max-width:unset;}
 
 .service-card:nth-child(3){
-height: 290px;
+height: inherit;
 } 
 
 .service .title-wrapper{padding-inline-end: ;
@@ -1212,7 +1223,7 @@ margin-left: 150px;}
 }
 
 .service-card:nth-child(3){
-  height: 360px;
+  height: inherit;
 }
 
 .service .container {
