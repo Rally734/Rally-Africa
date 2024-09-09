@@ -808,8 +808,8 @@ margin-block-end:10px}
 
 .input-btn{position:absolute;right:7px}
 
-  .footer-list{
-  font-size: var(--footer-text-font-size, inherit);
+  .footer-link{
+  font-size: 19px;
 }
 
 .footer-bottom-list{
