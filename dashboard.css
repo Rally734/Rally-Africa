@@ -932,6 +932,12 @@ margin-left: -54px;
 
 }
 
+@media(min-width:820px){
+  .news-content{
+    gap:20px 30px
+  }
+}
+
 @media(min-width:912px){
    
   .booking{
