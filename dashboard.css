@@ -342,7 +342,7 @@ color:chocolate
 
 .story{
   word-wrap: break-word;
-  font-size:25px;
+  font-size:20px;
   color:white;
   margin-left:1px
 }
@@ -367,7 +367,7 @@ margin-left: 5px;}
 
 .storyline{
   word-wrap: break-word;
-  font-size: 25px;
+  font-size: 20px;
   color:white;
   margin-left: 1px;
   margin-block-start: 20px;
@@ -988,12 +988,12 @@ width:100%
 
     .news-content{
       margin-left: 5px;
+      gap:50px;
     }
 
     .post .head{
-      margin-left: 240px;
-  
-    }
+      margin-left: 220px;
+      }
 
     .see-more{
       left: 254px;
