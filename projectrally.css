@@ -403,6 +403,13 @@ a {
 
 .exp-banner {
   position: relative;
+  margin-block-end: 9px;
+  background-color: #fff599;
+  width:300px;
+  height: 280px;
+  margin-block-start: 0px;
+  border-radius: 50%;
+  margin-left: 4px;
 }
 .exp .section-text {
   margin-block-end: 20px;
@@ -537,8 +544,10 @@ a {
 }
 .w-100 {
   border-radius: 50%;
-  width:300px;
-  height: 300px;
+  width:350px;
+  height: 490px;
+  margin-top: -80px;
+  margin-left: -25px;
 }
 .footer-bottom {
   padding-block: 30px;
@@ -877,10 +886,6 @@ margin-block-end:10px}
     height: 250px;
   }
 
-  .w-100{
-    width:400px;
-    height: 400px;
-  }
 
 }
 
