@@ -176,6 +176,7 @@ left: 5px;
 color: orange;
 font-weight: bold;
 font-size: 12px;
+font-family: cursive;
 }
 
 
@@ -432,6 +433,12 @@ gap:100px
 .footer{
 margin-left: 5px;
 }
+
+.sub-head{
+          font-size: 23px;
+          width: 600px;
+}
+
 .footer-brand{
           width: 760px;
 }
@@ -448,7 +455,7 @@ margin-left: 220px;
 }
 
 .terms-text{
-font-size: 23px;
+font-size: 20px;
 }
 
 
