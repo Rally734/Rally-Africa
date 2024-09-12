@@ -176,6 +176,7 @@ left: 5px;
 color: orange;
 font-weight: bold;
 font-size: 12px;
+font-family: cursive;
 }
 
 
@@ -197,7 +198,7 @@ margin-left: 70px;
 position: relative;
 top:30px;
 color:antiquewhite;
-left:-9px
+left:-9px;
 }
 
 .sub-head{
@@ -447,6 +448,10 @@ width:auto
 .terms-container h1{
 font-size: 35px;
 margin-left: 270px;
+}
+
+.sub-head{
+          font-size: 24px;
 }
 
 .terms-text{
