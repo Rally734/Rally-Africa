@@ -178,6 +178,7 @@ left: 5px;
 color: orange;
 font-weight: bold;
 font-size: 12px;
+font-family:cursive
 }
 
 .main{   margin-block-start: 90px;
@@ -211,6 +212,8 @@ border-radius: 5px;
   font-size: 20px;
   margin-block-start: 10px;
   word-wrap: break-word ;
+  margin-block-end: 25px;
+  line-height: 29px;
 
 }
 
