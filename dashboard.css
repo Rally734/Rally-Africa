@@ -936,6 +936,9 @@ margin-left: -54px;
   .news-content{
     gap:20px 30px
   }
+  .paragraph{
+    position: relative;
+  }
 }
 
 @media(min-width:912px){
@@ -967,9 +970,9 @@ margin-left: -54px;
       
     }
 
-    .location.paragraph{
+    .paragraph{
       position: relative;
-      left: 10px;
+      left: 105px;
     }
 
     .swiper{
